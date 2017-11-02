@@ -1,0 +1,14 @@
+p span{
+  background: red;
+  color: blue;
+  font-size: 50px;
+}
+ul {
+  color: blue;
+  text-decoration: underline;
+}
+
+ul li a{
+  color: orange;
+  text-decoration: line-through;
+}
