@@ -1,0 +1,22 @@
+a{
+  text-decoration: none;
+  color: black;
+  border-style: solid;
+  border-color: gray;
+  border-width: 6px;
+}
+a:hover{
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+li{
+  text-decoration: none;
+  float: left;
+  background-color: grey;
+  display: inline;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+
+}
