@@ -1,0 +1,41 @@
+#menu>li{
+  background-color: gray;
+  float: left;
+  margin-left: 2px;
+}
+
+#menu, #menu ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#menu a {
+  padding: 10px;
+  display: block;
+}
+
+#menu a:link {
+  text-decoration: none;
+  color:black;
+  display: block;
+}
+
+ #menu>li>ul{
+   display: none;
+   background-color: gray;
+   float:none;
+   position: absolute;
+}
+
+#menu>li:hover ul {
+  display: block;
+}
+#menu>li>a:hover{
+  background-color: black;
+  color: white;
+}
+#menu>li>ul>li>a:hover{
+  background-color: black;
+  color: white;
+  display: block;
+}
